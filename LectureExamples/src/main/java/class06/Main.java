@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         // TODO: Create several objects from the non-abstract classes
-
+Book book1 = new Book("Pride and Prejudice", "This timeless classic showcases Austin's wit and winsome characters", 12.49, 6, "Jane Asuten", "Romantic Fiction", "Paperback" )
 
         // TODO: Print each object created above
 

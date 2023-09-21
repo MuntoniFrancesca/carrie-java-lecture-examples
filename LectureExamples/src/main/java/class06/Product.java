@@ -1,7 +1,7 @@
 package class06;
 
 // TODO: Make class abstract
-public class Product {
+public abstract class Product {
 
     private static int nextId = 1;
 
@@ -76,5 +76,6 @@ public class Product {
     }
 
     // TODO: Add an abstract method, describe()
+public abstract String describe();
 
 }
