@@ -1,5 +1,5 @@
 package class06.books;
-
+import class06.Product;
 // TODO: Refactor class to inherit from Product
 public class Book extends Product {
 
@@ -49,9 +49,9 @@ public class Book extends Product {
 
     // TODO: Define describe() as required by Product
 public String describe() {
-    String newline = System.lineSeparator();
-    String pipe " | ";
-        return getName() + " by " author + newLine +
+    String newLine = System.lineSeparator();
+    String pipe = " | ";
+        return getName() + " by " + author + newLine +
             getDesc() + newLine +
             genre + pipe + format + pipe + getPrice() + newLine;
 }
